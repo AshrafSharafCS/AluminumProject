@@ -1,0 +1,133 @@
+header{
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(#344a72,#1b1b1b);
+ 
+}
+
+
+ul{
+    float: right;
+    margin-top: 25px;
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color:#1b1b1b;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 23px;
+}
+
+
+ul li a:hover{
+    background-color: #1b1b1b;
+    color: #344a72;
+}
+
+
+.logout{
+   
+    float: left;
+}
+.order-box{
+
+    text-align: center;
+    margin-top: 50px;
+    width: 500px;
+    height: 150px;
+    margin-left: 100px;    
+    border-radius: 3px;
+    background-color: rgb(97, 87, 87);
+
+
+}
+label{ 
+color: black;
+font-size: 20px;
+}
+
+  
+
+  
+
+  #all{
+
+    display: flex;
+    
+    }
+    
+      #doors{ margin-left: 15px;
+        margin-top: 20px;
+        background-color: rgb(97, 87, 87);
+        width: 350px;
+        height: 400px;
+      }
+      #windows{
+    margin-left: 15px;
+        margin-top: 20px;
+        background-color:rgb(97, 87, 87);
+        width: 350px;
+        height: 400px;
+      }
+      #closets{
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: rgb(97, 87, 87);
+        width: 350px;
+        height: 400px;
+      }
+      #kitchens{
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color:rgb(97, 87, 87);
+        width: 350px;
+        height: 400px;
+      }
+    
+      input[id="cb"]{
+        margin-left: 700px;
+        width: 180px;
+        height: 35px;
+        border: none;
+        background-color: #49c1a2;
+        color: black;
+        font-size: 18px;
+      }
+      
+      input[id="oh"]{
+        margin-left: 400px;
+        width: 250px;
+        height: 35px;
+        border: none;
+        background-color: #49c1a2;
+        color: black;
+        font-size: 18px;
+      }
+      h1{
+        font-style: oblique;
+        margin-left: 34%;
+      }
+      h2{
+        font-style: oblique;
+        margin-left: 5%;
+      }
+      #ob{
+        display: flex;
+    
+      }
+    
